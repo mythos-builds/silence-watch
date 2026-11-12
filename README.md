@@ -5,7 +5,12 @@ enough, a reactive contract warns, waits a grace period in which any sign of lif
 to release. The vault holds nothing itself: the owner keeps their tokens and gives it an allowance (revocable at any
 time). After a release, anyone can trigger the payout to the heirs, by fixed shares. It hands over funds, never keys.
 
-Built for the Reactive Omni Buildathon, track « Set It and Forget It ». Testnet only (Lasna), unaudited.
+Built for the Reactive Omni Buildathon, track « Set It and Forget It ». Testnet only (Reactive Lasna + Ethereum
+Sepolia), unaudited.
+
+**Live page:** https://mythos-builds.github.io/silence-watch/ (reads the contracts straight from the chain; the owner
+checks in from it with one click) · **The run, step by step, with every transaction:**
+[`runs/2026-11-12-cross2-txs.md`](runs/2026-11-12-cross2-txs.md) · explorer screenshots in [`runs/evidence/`](runs/evidence/)
 
 ## How it works
 
