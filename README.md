@@ -31,7 +31,7 @@ checks in from it with one click) · **The run, step by step, with every transac
 |---|---|---|
 | `CheckIn` | each watched chain | Only the owner can make it emit `Alive(owner, at)`; keeps `last` for the vault. |
 | `SilenceWatch` | Reactive (Lasna) | Counts the silence on Cron ticks, from the last sign it stored, on its own chain's clock. Stages Armed → Warning → Released. Shows its runway: `fundedUntil()`. After the release, a source's next sign unsubscribes that source (it would only bill the watch). |
-| `HeirVault` | destination (Lasna, or the owner's home chain) | Accepts callbacks from the watch only. Re-checks the owner's last check-in before it releases. Pays out by allowance. |
+| `HeirVault` | the owner's home chain (proven on Ethereum Sepolia) | Accepts callbacks from the watch only. Re-checks the owner's last check-in before it releases. Pays out by allowance. |
 
 `Origin`, `LoopReactive`, `LoopCallback` and `script/Deploy.s.sol` are the first generic loop (a log, a reaction,
 a callback), kept as the smallest working example. `DemoToken` is for the demo only: a plain ERC-20 whose whole
@@ -84,6 +84,11 @@ The tests stand in for the network with `test/MockSystem.sol`, deployed at the s
 tests deliver them the way the network does.
 
 ## Deploy (Lasna)
+
+⚠️ Everything on Lasna is the simplest layout, but on 2026-11-12 callbacks whose destination is Lasna itself were never
+relayed: the reaction ran and was billed, and the callback sat at « AWAITING RELAY » (« Not sent yet », no error), with a
+300 000 gas limit for two hours and again with 1 000 000 (log `runs/2026-11-12-lasna-retest.log`). Until that changes,
+use the two-chain layout below, which works end to end.
 
 ```shell
 export HEIRS=0x…,0x… SHARES=2,1          # required; OWNER defaults to the deployer

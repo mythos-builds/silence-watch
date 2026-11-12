@@ -1,0 +1,45 @@
+[2026-11-12 17:14:21] deploy the generic loop (Origin, LoopCallback, LoopReactive) on Lasna, FUND_WEI 0.05 each
+[2026-11-12 17:14:30] Origin 0xbdf9d897f95574c83a98b6d487b43e282bf0d056 · LoopCallback 0x1eb6697d777ecd6b7fb4da82efb363e30711175c · LoopReactive 0x824ed2226f19140817b3d740a4fbff16b2e96ed6
+[2026-11-12 17:14:32] gas limit asked by the reactive: 1000000 [1e6]
+[2026-11-12 17:14:54] tick(7) sent: 0x59a5090b4a0d6abf5744c493d120446a7e50d4390708ac97c95b8b8fbf19c04b
+[2026-11-12 17:15:11] poll 1: handled = 0
+[2026-11-12 17:15:27] poll 2: handled = 0
+[2026-11-12 17:15:43] poll 3: handled = 0
+[2026-11-12 17:15:59] poll 4: handled = 0
+[2026-11-12 17:16:16] poll 5: handled = 0
+[2026-11-12 17:16:32] poll 6: handled = 0
+[2026-11-12 17:16:48] poll 7: handled = 0
+[2026-11-12 17:17:04] poll 8: handled = 0
+[2026-11-12 17:17:20] poll 9: handled = 0
+[2026-11-12 17:17:37] poll 10: handled = 0
+[2026-11-12 17:17:53] poll 11: handled = 0
+[2026-11-12 17:18:09] poll 12: handled = 0
+[2026-11-12 17:18:25] poll 13: handled = 0
+[2026-11-12 17:18:42] poll 14: handled = 0
+[2026-11-12 17:18:58] poll 15: handled = 0
+[2026-11-12 17:19:14] poll 16: handled = 0
+[2026-11-12 17:19:30] poll 17: handled = 0
+[2026-11-12 17:19:46] poll 18: handled = 0
+[2026-11-12 17:20:03] poll 19: handled = 0
+[2026-11-12 17:20:19] poll 20: handled = 0
+[2026-11-12 17:20:35] poll 21: handled = 0
+[2026-11-12 17:20:51] poll 22: handled = 0
+[2026-11-12 17:21:08] poll 23: handled = 0
+[2026-11-12 17:21:24] poll 24: handled = 0
+[2026-11-12 17:21:40] poll 25: handled = 0
+[2026-11-12 17:21:56] poll 26: handled = 0
+[2026-11-12 17:22:13] poll 27: handled = 0
+[2026-11-12 17:22:29] poll 28: handled = 0
+[2026-11-12 17:22:45] poll 29: handled = 0
+[2026-11-12 17:23:02] poll 30: handled = 0
+[2026-11-12 17:23:18] poll 31: handled = 0
+[2026-11-12 17:23:34] poll 32: handled = 0
+[2026-11-12 17:23:50] poll 33: handled = 0
+[2026-11-12 17:24:06] poll 34: handled = 0
+[2026-11-12 17:24:22] poll 35: handled = 0
+[2026-11-12 17:24:39] poll 36: handled = 0
+[2026-11-12 17:24:55] poll 37: handled = 0
+[2026-11-12 17:25:11] poll 38: handled = 0
+[2026-11-12 17:25:27] poll 39: handled = 0
+[2026-11-12 17:25:44] poll 40: handled = 0
+[2026-11-12 17:25:44] no callback after 10 min: check https://lasna.reactscan.net/address/0x824ed2226f19140817b3d740a4fbff16b2e96ed6 (callbacks tab)
