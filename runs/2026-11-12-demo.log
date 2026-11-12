@@ -1,0 +1,7 @@
+[2026-11-12 13:26:45] block 8184438 | start, vault stage = Armed
+[2026-11-12 13:26:48] block 8184441 |   0x90Cf531c997E80AbA733D2dE6A0bCfD2a8FEf78e balance 486430900000000000 debt 0 reserves 0
+[2026-11-12 13:26:51] block 8184444 |   0x7EeCB7CFcAEE7d96429f2AB82FEe513Ad0813466 balance 300000000000000000 debt 0 reserves 0
+[2026-11-12 13:26:57] block 8184449 |   watch: lastTick 1794507964 tickEvery 0 tickFee 16500000000000000 fundedUntil 0
+[2026-11-12 13:43:45] block 8185398 | TIMEOUT waiting for stage 1 (now 0)
+[2026-11-12 13:54:15] block 8185986 | relay watch: callbacks AWAITING RELAY on reactscan (warn requested block 8184701, release 8185001); vault stage Armed
+[2026-11-12 15:35:17] block 8191660 | TIMEOUT: still Armed after 90 min, callbacks never relayed

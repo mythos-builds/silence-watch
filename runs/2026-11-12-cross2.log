@@ -1,0 +1,23 @@
+[2026-11-12 16:14:58] block 12121446 | start, vault stage = Armed
+[2026-11-12 16:15:01] block 12121448 |   watch balance 300000000000000000 debt 0 reserves 0
+[2026-11-12 16:15:02] block 12121448 |   vault balance 500000000000000 debt 0 reserves 0
+[2026-11-12 16:15:07] block 12121448 |   watch: lastTick 1794518100 tickEvery 0 tickFee 16500000000000000 fundedUntil 0
+[2026-11-12 16:15:09] block 12121448 | watch stage = Armed
+[2026-11-12 16:20:26] block 12121473 | watch stage = Warning
+[2026-11-12 16:20:27] block 12121473 | vault stage = Warning
+[2026-11-12 16:21:02] block 12121476 | owner checks in: blockNumber=12121477 status=1 transactionHash=0xb80d3e5581c487ed598ac21c47413ede5de41ae54c168a1c6a40b884fda3e7ac 
+[2026-11-12 16:21:03] block 12121476 | watch stage = Armed
+[2026-11-12 16:21:20] block 12121477 | vault stage = Armed
+[2026-11-12 16:21:21] block 12121477 | warning cancelled; now silent until the release
+[2026-11-12 16:27:29] block 12121506 | watch stage = Warning
+[2026-11-12 16:27:29] block 12121506 | vault stage = Warning
+[2026-11-12 16:32:47] block 12121532 | watch stage = Released
+[2026-11-12 16:33:04] block 12121533 | vault stage = Released
+[2026-11-12 16:33:13] block 12121534 | distribute DEMO: blockNumber=12121535 status=1 transactionHash=0x8cf46291d4699eafe5f099e787efa3ee85a07f6baac101358940686d843c8442 
+[2026-11-12 16:33:14] block 12121534 | heir 0xE2360b74e54b4F829F7cFA7ab5616013bFF6b8E3 DEMO 666666666666666666666
+[2026-11-12 16:33:15] block 12121534 | heir 0x9a8601F1782C232c32EEF5687aA13180865A4535 DEMO 333333333333333333334
+[2026-11-12 16:33:16] block 12121534 | owner DEMO 0
+[2026-11-12 16:33:19] block 12121534 |   watch balance 142499300000000000 debt 0 reserves 0
+[2026-11-12 16:33:20] block 12121535 |   vault balance 499999980886296 debt 0 reserves 0
+[2026-11-12 16:33:25] block 12121535 |   watch: lastTick 1794519159 tickEvery 108 tickFee 16500000000000000 fundedUntil 1794520023
+[2026-11-12 16:33:26] block 12121535 | done

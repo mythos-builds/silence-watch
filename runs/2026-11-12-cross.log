@@ -1,0 +1,8 @@
+[2026-11-12 15:45:20] block 12121299 | start, vault stage = Armed
+[2026-11-12 15:45:24] block 12121299 |   watch balance 300000000000000000 debt 0 reserves 0
+[2026-11-12 15:45:25] block 12121299 |   vault balance 2000000000000000 debt 0 reserves 0
+[2026-11-12 15:45:30] block 12121299 |   watch: lastTick 0 tickEvery 0 tickFee 0 fundedUntil 0
+[2026-11-12 15:45:31] block 12121299 | watch stage = Armed
+[2026-11-12 15:51:54] block 12121331 | watch stage = Warning
+[2026-11-12 15:57:29] block 12121359 | watch stage = Released
+[2026-11-12 16:07:46] block 12121410 | TIMEOUT waiting for vault stage 1 (now 0)
